@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oleksandr's Dolotii Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleSecondPage.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+  <body>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Oleksandr Dolotii</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experiance_main.html">Contact</a></li>
+        </ul>
+    </div>
+   
+   
+    <header>
+      <img src="images/index.jpg" alt="picture" class="profile-image">
+     <h1 class="tag">Contact Page</h1>  
+     
+    </header>
+
+    <article>
+
+
+     <div class="flexbox"> 
+    <form id="contactmeId" action="#" method="POST">
+    <fieldset id="senderinfo">
+    <legend>Your information</legend>
+    <div class="formRow">
+    <label for="sendername">Your name*</label>
+    <input name="sName" id="senderinfo" type="text" placeholder="Oleksandr Dolotii">
+    </div>
+    <div class="formRow">
+    <label for="companyName">Your company name</label>
+    <input name="cname" id="companyName" type="text" placeholder="Ubisoft">
+    </div>
+    
+    <div class="formRow">
+      <label for="cityname">Location(city) </label>
+      <input name="cityname" id="cityname" type="text" placeholder="Vancouver">
+    </div>
+
+    <div class="formRow">
+      <label for="position">Offered position</label>
+      <select name ="positselect" id="allposition">
+        <option value= "makeyourchoice" selected>Select</option>
+      <option value= "frontend">Front End Dev</option>
+      <option value= "backend">Back End Dev</option>
+      <option value= "full">Full stack Dev</option>
+      <option value= "frontend">Other</option>
+      </select>
+      </div>
+      <div class="formRow">
+        <label for="exyear">Required Year of Experiance as Front-end</label>
+        <select name ="yearexselect" id="exselector">
+        <option value= "makeyourchoice" selected>Select</option>
+        <option value= "lessthanone">Less than 1 year</option>
+        <option value= "oneyear">1 year</option>
+        <option value= "two">2 years</option>
+        <option value= "three">3 years</option>
+        <option value= "three">Skip this step</option>
+        
+        </select>
+        </div>
+
+        <div class="formRow">
+          <label for="exyearback">Required Year of Experiance as Back-end</label>
+          <select name ="yearexselectback" id="exselectorback">
+          <option value= "makeyourchoice" selected>Select</option>
+          <option value= "lessthanone">Less than 1 year</option>
+          <option value= "oneyear">1 year</option>
+          <option value= "two">2 years</option>
+          <option value= "three">3 years</option>
+          <option value= "three">Skip this step</option>
+          </select>
+          </div>
+
+          <div class="formRow">
+            <label for="exyearfull">Required Year of Experiance as Full stack dev</label>
+            <select name ="yearexselectfull" id="exselectorfull">
+            <option value= "makeyourchoice" selected>Select</option>
+            <option value= "lessthanone">Less than 1 year</option>
+            <option value= "oneyear">1 year</option>
+            <option value= "two">2 years</option>
+            <option value= "three">3 years</option>
+            <option value= "three">Skip this step</option>
+            </select>
+            </div>
+
+            <div class="formRow">
+              <label for="typejob">Type of job</label>
+              <select name ="jobtypeselect" id="selectortypejob">
+              <option value= "makeyourchoice" selected>Select</option>
+              <option value= "fulltimejob">Full time (40+ hours)</option>
+              <option value= "parttimejob">Part time (20 hours)</option>
+              <option value= "lessthan20">Less than 20 hours</option>
+              <option value= "other">Other</option>
+              </select>
+              </div>
+              <div class="formRow">
+               
+              <label for="salaryrate">Offered approximate salary per hour:  <br>
+                
+                </label>
+                $15
+              <input name="salRateSelect" id="salaryrate" type="range" value="15" step="1"
+              min="15" max="40"/>
+              $40
+
+              </div>
+
+              <div class="formRow">
+              <textarea name = "yourmessage" rows="10" cols="50" wrap="soft"> Enter your message here</textarea>
+              </div>
+              <div class="formRow" id="buttons">
+              <input value="Submit" type="submit">
+              <input value="Reset" type="reset">
+              </div>
+            
+
+    </fieldset>
+
+    </form >
+  </div>
+
+  <div class="flexbox">
+    
+    <ul>
+      <li><img src="images/contactme.jpg" alt="contact_me_image"></li>
+    <li><a href="mailto:dwin13672@gmail.com" ><img src="images/emailmeicon.png" alt="image" class="imageicon"> </a> You can text me: <a href="mailto:dwin13672@gmail.com">dwin13672@gmail.com</a></li>
+    <li><a href="tel:+12368630646"><img src="images/callmeicon.png" alt="image" class="imageicon"></a>In addition, you can give me a call: <a href="tel:+12368630646">+1 236-863-0646</a></li>
+    </ul>
+  </div>  
+    </article>
+    
+   
+    <footer>
+      <ul>
+        <li><a href="https://www.facebook.com/dwin.dwis" class="fa-facebook" target="_blank">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/oleksandr-dolotii-332a27173/" target="_blank" class="fa-facebook"> Linkedin</a></li>
+        <li><a href="https://app.circleci.com/pipelines/github/dwin199601" target="_blank" class="fa-facebook"> GitHub</a></li>
+      </ul>
+
+    </footer>
+
+  </body>
+  </html>

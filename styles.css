@@ -1,0 +1,398 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+  color: #222;
+  background: #f7f5f0;
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: color 1.2s ease-in 0.5s,
+              font-size 1.5s ease,
+              text-shadow 2s cubic-bezier( 0.6, 0, 0.8, 0.5);
+}
+.nav a:hover {
+  color: white;
+  
+  font-size: 1.2em;
+  text-shadow: rgba(128, 121, 36, 0.5) 6px -3px 8px;
+}
+
+header {
+  text-align: center;
+  background: url(images/rsz_3image.jpg) no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+ 
+
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+  border-color: black;
+}
+.tag {
+  background-color: rgba(83, 174, 240, 0.7);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.tag:hover {
+  background-color: rgba(100,120,200, 0.5);
+}
+.location {
+  background-color: #222;
+  color: yellow;
+}
+.card {
+  
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  min-height: 300px;
+  text-align: left;
+  background: #fff;
+ 
+ 
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+.card h2{
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-family: 'Oswald', sans-serif;
+}
+/*.card1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding: 20px 60px 40px;
+  
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card1:hover {
+  border-color: #ff99ff;
+}
+.card1 p{
+  padding-left: -20px;
+  
+  
+}
+.card1>ul{
+ 
+ border-width: 2px;
+ border-style: double;
+ border-color: #6633ff;
+}
+.card1>ul>li{
+ 
+ list-style-type: none;
+ border-width: 2px;
+ border-style: double;
+ border-color: #e71aa3;
+}*/
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+footer {
+  
+  padding: 20px 0 40px 20px;
+  min-height: 100px;
+  margin-top: 10px;
+  background-color: #222;
+  color: antiquewhite;
+  width: 100%;
+  
+  
+  
+}
+
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 7px;
+}
+
+footer ul li {
+  
+  display: inline-block;
+}
+
+
+
+
+.fa-facebook {
+  padding: 20px;
+  font-size: 14px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color:white;
+ 
+}
+
+
+
+
+ul.Hobbies {
+  list-style-type: none;
+  padding: 0;
+  
+  text-align: center;
+  float: right;
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+ul.Hobbies >*{
+  flex: 1 1 50px;
+}
+ul.Hobbies li{
+  font-size: 12px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #ff9904;
+  color: white;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+
+}
+.Hobbies li:nth-child(odd) {
+  background: #0399ff;
+}
+.photo2{
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.photo2:hover {
+  width: 250px;
+  height: 250px;
+}
+.photo2::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+/*main h2{
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-family: 'Oswald', sans-serif;
+}*/
+
+
+/* ----------------------------------------Styles for larger screens ----------------------------------------------------------------------*/
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      /*display: -ms-flexbox;  */    /* TWEENER - IE 10 */
+      display: flex; 
+      flex-flow: row wrap;
+      max-width: 1200px;
+      /*-ms-flex-pack: distribute;*/
+      justify-content: space-around;
+      margin: 0 auto;
+      
+
+  }
+ 
+
+  .card {
+    flex: 1 1 300px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    justify-content: center;
+   
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  
+
+}
+
+
+
+  
+  #exheader{
+    background-image: url(images/image_mine22.jpg);
+    text-align: center;
+    
+    
+    
+}
+#exheader h1{
+  
+  background-color: rgba(83, 174, 240, 0.4);
+  color: black;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  border-radius: 5px;
+  display: table;
+  margin: 5px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  
+}
+#exheader h1:hover{
+  color: #98e915;
+}
+#bodyexperiance{
+  background-color: rgba(192, 247, 233, 0.7);
+}
+
+
+.photo1{
+  margin-top: 5px;
+  padding-left: 2px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: 3px solid white;
+  transition: all .5s;
+
+}
+.photo1:hover{
+  transform: scale(1.2) rotate(-10deg);
+  border-color: black;
+}
+
+.photo3{
+  margin-top: 5px;
+  padding-left: 2px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+.photo3:hover{
+  transform: scale(1.2) rotate(10deg);
+  border-color: black;
+}
+
+
+@media screen and (max-width: 720px) {
+.photo2{
+  width: 160px;
+  height: 160px;
+}
+}
+
