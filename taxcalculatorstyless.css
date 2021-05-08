@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 
   font-family: "Oswald", sans-serif;
+  min-width: 400px;
 }
 div.formRoW {
   display: flex;
@@ -191,8 +192,33 @@ div.undernavbar {
 }*/
 @media screen and (max-width: 733px) {
   form {
-    width: 450px;
+    width: 350px;
     margin: 5px;
     text-align: left;
+    margin-left: 10px;
+  }
+  div.formRoW {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  div.formRoW > * {
+    flex: 1 1 50px;
+  }
+  div.formRoW input {
+    width: 100%;
+    margin: 5px;
+    border-radius: 7px;
+  }
+  div.formRow input[disabled] {
+    background-color: rgb(10, 104, 99);
+    border: none;
+    color: rgb(250, 249, 248);
+    font-weight: bold;
+  }
+
+  article {
+    height: auto;
   }
 }
