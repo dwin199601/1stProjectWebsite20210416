@@ -189,5 +189,5 @@ div.undernavbar {
   visibility: visible;
   transform: translateX(0);
 }*/
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 777px) {
 }
