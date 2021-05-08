@@ -5,25 +5,27 @@
   <title>Oleksandr's Dolotii Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styleSecondPage.css">
+  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
-
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Oswald:wght@300&display=swap" rel="stylesheet">
   <body>
 
     <div class="main-nav">
         <ul class="nav">
           <li class="name">Oleksandr Dolotii</li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="experiance_main.html">Contact</a></li>
+          <li><a href="contact1.html">Contact</a></li>
+          <li><a href="taxcalculator.html">Tax Calculator</a></li>
         </ul>
     </div>
    
    
     <header>
       <img src="images/index.jpg" alt="picture" class="profile-image">
-     <h1 class="tag">Contact Page</h1>  
+     <h1 class="tag" id="popuptext">Contact Page</h1>  
      
     </header>
 
@@ -122,7 +124,7 @@
               </div>
               <div class="formRow" id="buttons">
               <input value="Submit" type="submit">
-              <input value="Reset" type="reset">
+              <span data-tooltip="Are you sure that you want to clear the form?? All info will be deleted"><input value="Reset" type="reset" ></span>
               </div>
             
 

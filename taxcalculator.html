@@ -1,0 +1,102 @@
+<!doctype >
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="taxcalculatorstyless.css">
+    <script src="taxcalculator.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&family=Playfair+Display&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Original+Surfer&family=Playfair+Display&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Oleksandr Dolotii</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact1.html">Contact</a></li>
+          <li ><a href="taxcalculator.html">Tax Calculator</a></li>
+        </ul>
+    </div>
+<div class="undernavbar"></div>
+</div>
+
+ <!--<img src="images/importantimage.png" class="importantnote"> -->
+<span data-tooltip="This tax app is just a prototype that isn't for public use!"><img src="images/importantimage.png" class="importantnote"></span>
+<article>
+    
+
+<form id="taxcalculatorform" action="#" method="POST">
+<fieldset id="caltax">
+<legend>Tax Calculator</legend>
+
+<label for="choseprovince">Select Province in Canada</label>
+
+<select name="provinceSelector" id="choseprovince">
+<option value="selectvalue" id="selectvalueid" selected >Select</option>
+<option value="bcprovince" id="BCoption">BC</option>
+<option value="albertaprovince" id="ABoption">Alberta</option>
+</select>
+
+
+<div class="formRoW">
+    <label for="empanincome" >Employment Annual Income:</label>
+    <input type="text" id="empanincome" placeholder=" > 0">
+</div>
+<div class="formRoW">
+    <label for="selfanincome">Self-employment Income:</label>
+    <input type="text" id="selfanincome" placeholder=" > 0">
+</div>
+<div class="formRoW">
+    <label for="selfexpence">Self-employment Expenses:</label>
+    <input type="text" id="selfexpence" placeholder=" > 0">
+</div>
+<div class="formRoW">
+    <label for="incomePaid">Income taxes paid:</label>
+    <input type="text" id="incomePaid" placeholder=" > 0">
+</div>
+<br>
+<div class="formRoW">
+    <label for="totalIncome">Your Total Income</label>
+    <input type="text" id="totalIncome" disabled >
+</div>
+
+<div class="formRoW">
+    <label for="Federaltax">Federal Tax (%)</label>
+    <input type="text" id="Federaltax" disabled>
+</div>
+<div class="formRoW">
+    <label for="ProvTax">Provincial Tax (%)</label>
+    <input type="text" id="ProvTax" disabled>
+</div>
+<div class="formRoW">
+    <label for="TaxToPayinPercent">Marginal Tax Rate (%)</label>
+    <input type="text" id="TaxToPayinPercent" disabled>
+</div>
+<!--<div class="formRoW">
+    <label for="TaxToPay">Total Tax To Pay in $ </label>
+    <input type="text" id="TaxToPay" disabled>
+</div>-->
+<div class="buttonclass">
+    <input type="button" id="calculate" value="Calculate" onclick="calculateTotal()">
+    <span class="popuptextafterreset"><input type="button" id="clear" value="Clear" onclick="clearEntries()"></span><br>
+</div>
+
+</fieldset>
+</form>
+
+</article>
+
+<footer>
+    <ul>
+        <li><a href="https://www.facebook.com/dwin.dwis" class="fa-facebook" target="_blank">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/oleksandr-dolotii-332a27173/" target="_blank" class="fa-facebook"> Linkedin</a></li>
+        <li><a href="https://app.circleci.com/pipelines/github/dwin199601" target="_blank" class="fa-facebook"> GitHub</a></li>
+      </ul>
+</footer>
+</body>
+
+</html>
