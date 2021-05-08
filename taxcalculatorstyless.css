@@ -93,7 +93,7 @@ article {
 div.undernavbar {
   text-align: center;
   background: url(images/tax6.jpg) center / contain no-repeat;
-
+  width: 100%;
   background-size: cover;
   overflow: hidden;
   padding-top: 200px;
@@ -189,5 +189,10 @@ div.undernavbar {
   visibility: visible;
   transform: translateX(0);
 }*/
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 733px) {
+  form {
+    width: 450px;
+    margin: 5px;
+    text-align: left;
+  }
 }
