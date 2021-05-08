@@ -34,7 +34,7 @@
 <fieldset id="caltax">
 <legend>Tax Calculator</legend>
 
-<label for="choseprovince">Select Province in Canada</label>
+<label for="choseprovince" id="selectProv">Select Province in Canada</label>
 
 <select name="provinceSelector" id="choseprovince">
 <option value="selectvalue" id="selectvalueid" selected >Select</option>
@@ -61,21 +61,26 @@
 </div>
 <br>
 <div class="formRoW">
-    <label for="totalIncome">Your Total Income</label>
+    <span class="mobil"><label for="totalIncome">Your Total Income</label>
     <input type="text" id="totalIncome" disabled >
+</span>
 </div>
 
 <div class="formRoW">
-    <label for="Federaltax">Federal Tax (%)</label>
+    <span class="mobil"><label for="Federaltax">Federal Tax (%)</label>
     <input type="text" id="Federaltax" disabled>
+</span>
 </div>
 <div class="formRoW">
-    <label for="ProvTax">Provincial Tax (%)</label>
+    <span class="mobil"><label for="ProvTax">Provincial Tax (%)</label>
     <input type="text" id="ProvTax" disabled>
+</span>
 </div>
 <div class="formRoW">
+    <span class="mobil">
     <label for="TaxToPayinPercent">Marginal Tax Rate (%)</label>
     <input type="text" id="TaxToPayinPercent" disabled>
+</span>
 </div>
 <!--<div class="formRoW">
     <label for="TaxToPay">Total Tax To Pay in $ </label>
