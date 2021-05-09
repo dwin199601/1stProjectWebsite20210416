@@ -166,6 +166,11 @@ div.undernavbar {
   transform: translateY(0);
 }
 
+#calculate,
+#clear {
+  cursor: pointer;
+}
+
 /*.tooltipfornav {
   position: relative;
 }

@@ -1,8 +1,9 @@
+
+
 function  calculateTotal() {
 
-    //let bcOption = document.getElementById("BCoption").value;
-    //let SelValue = document.getElementById("selectvalueid").value;
-    //let var1="";
+   
+    
     let bcOption = document.getElementById("BCoption").selected;
     let SelValue = document.getElementById("selectvalueid").selected;
     let ABoption = document.getElementById("ABoption").selected;
@@ -43,11 +44,13 @@ function  calculateTotal() {
     
     else {
     totalIncome = var2+(var3 - var5)-var4;
+
     document.getElementById("totalIncome").setAttribute("disable", false);
     document.getElementById("totalIncome").value = totalIncome.toLocaleString('en-US', {
     style: 'currency', currency: 'USD',}); 
     alert("The total anual BC income was calculated");
-
+    
+   
     
     if(totalIncome <=13808){
         federalTax = 0;
