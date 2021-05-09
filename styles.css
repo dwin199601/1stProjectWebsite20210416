@@ -275,7 +275,7 @@ ul.Hobbies li {
   color: white;
   cursor: pointer;
   width: 25%;
-  max-height: 25px;
+  max-height: 30px;
 }
 .popupbuttonmove {
   display: flex;
