@@ -85,12 +85,33 @@ header .profile-image {
   height: 150px;
   border-radius: 30%;
   border: 3px solid white;
-  transition: all 0.5s;
+  animation-name: rotateimage;
+  animation-duration: 3s;
+  /*transition: all 0.5s;*/
 }
-header .profile-image:hover {
+@keyframes rotateimage {
+  0% {
+    transform: rotate(5deg);
+    border-color: aqua;
+  }
+  25% {
+    transform: rotate(90deg);
+    border-color: aquamarine;
+  }
+  50% {
+    transform: rotate(180deg);
+    border-color: cadetblue;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-color: white;
+  }
+}
+
+/*header .profile-image:hover {
   transform: scale(1.2);
   border-color: black;
-}
+}*/
 .tag {
   background-color: rgba(83, 174, 240, 0.7);
   color: black;
