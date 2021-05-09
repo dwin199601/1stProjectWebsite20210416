@@ -238,15 +238,24 @@ ul.Hobbies li {
   background: #0399ff;
 }
 .photo2 {
-  width: 250px;
-  height: 250px;
-  float: left;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
   transition: all 0.5s linear;
 }
 
-.photo2:hover {
-  width: 300px;
-  height: 300px;
+.buttonpopupwindow {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+}
+.popupbuttonmove {
+  display: flex;
+  flex-flow: column wrap;
+}
+.popupbuttonmove > * {
+  flex: 1 1 50px;
 }
 
 /*main h2{
@@ -348,11 +357,7 @@ ul.Hobbies li {
 
 @media screen and (max-width: 720px) {
   .photo2 {
-    width: 160px;
-    height: 160px;
-  }
-  .photo2:hover {
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
   }
 }

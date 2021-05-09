@@ -5,6 +5,8 @@
   <title>Oleksandr's Dolotii Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesforpopupwindow.css">
+  <script src="popupwindow.js" defer></script>
   
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -67,17 +69,34 @@
       </div>
         <div class="card"> 
       <h2>QA Testing Certificate</h2>
+      <span class="popupbuttonmove">
       <img src="images/certificateQA.png" alt="certificate QA testing"  class="photo2">
-      <p>I've got knowledge and skills about testing technique, SDLC like waterfall, agile</p>
-      <p>I'm more than capable to create a test case, bug report, and other testing artifacts</p>
+      <button type="button" class="buttonpopupwindow">Read More</button>
+      </span>
+      <div class="certeficatdetail-main">
+        <div class="certeficatdetail">
+          <p>I've got knowledge and skills about testing technique, SDLC like waterfall, agile</p>
+          <p>I'm more than capable to create a test case, bug report, and other testing artifacts</p>
+      <span class="X" draggable="true">&times;</span>
+        </div>
+      </div>
     </div>
      
       <div class="card">
       <h2>SQL Certificate</h2>
-      <img src="images/certificateSQL.png" alt="certificate SQL" class="photo2">
-      <p>I've learnt how to work with different quaries like distinct, order by, group by, joins and much more</p>
-      
+      <span class="popupbuttonmove">
+        <img src="images/certificateSQL.png" alt="certificate SQL" class="photo2">
+        <button type="button" class="buttonpopupwindow" id="button2">Read More</button>
+       </span>
+       <div class="certeficatdetail-main2">
+        <div class="certeficatdetail2">
+          <p>I've learnt how to work with different quaries like distinct, order by, group by, joins and much more</p>
+      <span class="X2" draggable="true">&times;</span>
+        </div>
       </div>
+      </div>
+
+
     </main>
     <footer>
       <ul>
