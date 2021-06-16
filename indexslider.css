@@ -1,0 +1,27 @@
+div.starts {
+  background-color: rgb(211, 208, 204);
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: rgb(212, 210, 206) 5px 5px 15px;
+}
+.starts > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/*div.starts p:nth-of-type(5n + 1),
+p:nth-of-type(4n + 1),
+p:nth-of-type(3n + 1),
+p:nth-of-type(2n + 1),
+p:nth-of-type(1n + 1) {
+  color: rgb(15, 15, 15);
+
+  text-align: center;
+}*/
+div.innertext {
+  color: brown;
+  text-align: center;
+  font-size: 16px;
+}

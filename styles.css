@@ -128,7 +128,7 @@ header .profile-image {
   background-color: rgba(100, 120, 200, 0.5);
 }
 .location {
-  background-color: #222;
+  background-color: rgba(83, 174, 240, 0.7);
   color: yellow;
 }
 .card {
