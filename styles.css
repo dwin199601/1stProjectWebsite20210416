@@ -148,40 +148,7 @@ header .profile-image {
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
-/*.card1{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  padding: 20px 60px 40px;
-  
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card1:hover {
-  border-color: #ff99ff;
-}
-.card1 p{
-  padding-left: -20px;
-  
-  
-}
-.card1>ul{
- 
- border-width: 2px;
- border-style: double;
- border-color: #6633ff;
-}
-.card1>ul>li{
- 
- list-style-type: none;
- border-width: 2px;
- border-style: double;
- border-color: #e71aa3;
-}*/
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -285,11 +252,19 @@ ul.Hobbies li {
   flex: 1 1 50px;
 }
 
-/*main h2{
-  font-family: 'Josefin Sans', sans-serif;
-
-  font-family: 'Oswald', sans-serif;
-}*/
+.parentSertificate {
+  display: flex;
+  flex-flow: column wrap;
+}
+.parentSertificate .childSertificate {
+  flex: 1 1 120px;
+}
+.childSertificate {
+  background-color: #bdf5d4;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: rgb(130, 155, 187) 5px 5px 15px;
+}
 
 /* ----------------------------------------Styles for larger screens ----------------------------------------------------------------------*/
 @media screen and (min-width: 720px) {

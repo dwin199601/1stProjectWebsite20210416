@@ -5,10 +5,11 @@
   <title>Oleksandr's Dolotii Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="stylesforpopupwindow.css">
+  <!--<link rel="stylesheet" href="stylesforpopupwindow.css">-->
   <link rel="stylesheet" href="indexslider.css">
-  <script src="popupwindow.js" defer></script>
-  
+  <!--<script src="popupwindow.js" defer></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Oswald:wght@300&display=swap" rel="stylesheet"> 
@@ -62,57 +63,10 @@
           <p>HTML<sup>⭐⭐⭐⭐</sup></p>
           <p>CSS<sup>⭐⭐⭐</sup></p>
           <p>JavaScript<sup>⭐⭐⭐</sup></p>
+          <p>SQL<sup>⭐⭐⭐⭐</sup></p>
           <p>Photoshop<sup>⭐</sup></p>
         </div>
         </div>
-        <!--<div class="formRawSlider">
-          <label for ="rangerBox">My overall proficiency in programming
-          <br>(0-Poor, 10-Excelent)
-        </label>
-
-        <div class="rangealign">
-        <p><b>C#:</b>  0
-        <input name = "sliderskills" id="rangeBox" type ="range" step="1" min="0" max="10" value="5"/>
-        10
-        </p>
-        </div>
-
-        <div class="rangealign">
-        <p>
-          <b>HTML:</b>  0
-          <input name = "sliderskills1" id="rangeBox1" type ="range" step="1" min="0" max="10" value="7"/>
-          10
-        </p>
-      </div>
-
-
-      <div class="rangealign">
-        <p>
-          <b>CSS:</b>  0
-          <input name = "sliderskills2" id="rangeBox2" type ="range" step="1" min="0" max="10" value="7"/>
-          10
-        </p>
-      </div>
-
-
-      <div class="rangealign">
-        <p>
-          <b>JavaScript:</b>  0
-          <input name = "sliderskills3" id="rangeBox3" type ="range" step="1" min="0" max="10" value="5"/>
-          10
-        </p>
-      </div>
-        
-
-        <div class="rangealign">
-          <p>
-          <b>Java:</b>  0
-          <input name = "sliderskills4" id="rangeBox4" type ="range" step="1" min="0" max="10" value="5"/>
-          10
-        </p>
-        </div>
-      </div> -->
-      
       </div>
       
       
@@ -135,35 +89,26 @@
         <image src="images/mine-pic-3.jpg" alt="pc-controller-pic" class="photo3"></image>
       </div>
         <div class="card"> 
-      <h2>QA Testing Certificate</h2>
-      <span class="popupbuttonmove">
-      <img src="images/certificateQA.png" alt="certificate QA testing"  class="photo2">
-      <button type="button" class="buttonpopupwindow">Read More</button>
-      </span>
-      <div class="certeficatdetail-main">
-        <div class="certeficatdetail">
-          <p>I've got knowledge and skills about testing technique, SDLC like waterfall, agile</p>
-          <p>I'm more than capable to create a test case, bug report, and other testing artifacts</p>
-      <span class="X" draggable="true">&times;</span>
-        </div>
+          <div class = "parentSertificate">
+
+      <h2>My Certificates</h2><br>
+      <script src="certificates.js"></script>
+
+      <div class = "childSertificate">
+        <img src="images/certificateQA.png" width="300px" style = "display: none; margin-top: 10px;" id = "QAimage">
+        <p>I've got knowledge and skills about testing technique, SDLC like waterfall, agile.I'm more than capable to create testing documentations</p>
+        <button style = "margin-bottom: 10px; background: #1d469e; color: white;" id = "buttonQA">Open Certificate</button>
+      
+
+      
+        <img src="images/certificateSQL.png" width="300px" style = "display: none; margin-top: 10px;" id = "SQLimage">
+        <p>I've got solid knowledge of SQL and database manipulation </p>
+        <button style = "margin-bottom: 10px; background: #1d469e; color: white;" id= "buttonSQL">Open Certificate</button>
       </div>
+          </div>
+    
     </div>
      
-      <div class="card">
-      <h2>SQL Certificate</h2>
-      <span class="popupbuttonmove">
-        <img src="images/certificateSQL.png" alt="certificate SQL" class="photo2">
-        <button type="button" class="buttonpopupwindow" id="button2">Read More</button>
-       </span>
-       <div class="certeficatdetail-main2">
-        <div class="certeficatdetail2">
-          <p>I've learnt how to work with different quaries like distinct, order by, group by, joins and much more</p>
-      <span class="X2" draggable="true">&times;</span>
-        </div>
-      </div>
-      </div>
-
-
     </main>
     <footer>
       <ul>
