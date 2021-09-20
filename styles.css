@@ -257,13 +257,13 @@ ul.Hobbies li {
   flex-flow: column wrap;
 }
 .parentSertificate .childSertificate {
-  flex: 1 1 120px;
+  flex: 1 1 170px;
 }
 .childSertificate {
   background-color: #bdf5d4;
   text-align: center;
   border-radius: 2px;
-  box-shadow: rgb(130, 155, 187) 5px 5px 15px;
+  box-shadow: rgb(130, 155, 187) 0px 0px 15px;
 }
 
 /* ----------------------------------------Styles for larger screens ----------------------------------------------------------------------*/
